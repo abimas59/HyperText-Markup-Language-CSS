@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table{
+            -webkit-box-shadow: 5px 1px 9px 8px rgba(0,0,0,0.48); 
+            box-shadow: 5px 1px 9px 8px rgba(0,0,0,0.48);
+            border: solid 1px black;
+        }
+        table thead th  {
+            background-color: rgb(145, 197, 235);
+            color: white;
+        }
+        table tbody tr:nth-child(even) td{
+            
+            
+        }
+        table tbody tr:hover td{
+            background-color: rgb(242, 102, 166);
+            cursor: pointer;
+            
+        }
+        table tfoot td{
+            background-color: gray;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre nós</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="Horario.html">Horarios</a></li>
+            </ul>
+        </div>
+            
+        <div class="main">
+            <div class="header">
+            
+                <img src="assets/logo.png" width="150" alt="">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <table align="center">
+                    <thead> 
+                        <th colspan="4"> Horário de Atendimento </th>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Camisa e Planos</td>
+                            <td> 08h - 19h</td>
+                            <td> 08h - 16h</td>
+                            <td> -- --</td>
+                        </tr>
+                        <tr>
+                            <td>Aço e alumínio  </td>
+                            <td> 08h - 19h</td>
+                            <td> 08h - 16h</td>
+                            <td> 08h - 12h</td>
+                        </tr>
+                        <tr>
+                            <td>Canecas e cônicas</td>
+                            <td> 08h - 19h</td>
+                            <td> 08h - 16h</td>
+                            <td> 08h - 12h</td>
+                        </tr>
+                    </tbody>
+                    <tr></tr>
+                </table>
+            </div>
+    
+            <div class="footer">
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Sobre.html">Sobre nós</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                    <li><a href="Horario.html">Horarios</a></li>
+                </ul>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color:  rgb(145, 197, 235);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color:  rgb(145, 197, 235);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(145, 197, 235);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+}
+.footer {
+    background-color: rgb(242, 102, 166);
+    min-height: 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#conteudo {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.359);
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo label {
+    display: inline-block;
+    width: 100px; /* Ajuste conforme necessário */
+    text-align: left;
+    margin-right: 10px;
+}
+
+#conteudo input[type="text"],
+#conteudo input[type="email"],
+#conteudo textarea {
+    width: calc(1 - 50px); /* Ajuste conforme necessário */
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-actions {
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
